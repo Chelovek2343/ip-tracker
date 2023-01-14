@@ -1,0 +1,109 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header,
+section,
+footer {
+  width: 100%;
+  overflow: hidden;
+}
+body {
+  font-size: 1rem;
+  color: #2b2b2b;
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  background-image: url(../img/pattern-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+button {
+  cursor: pointer;
+}
+button,
+input,
+select,
+textarea {
+  border: none;
+  background: transparent;
+  outline: none;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.wrapper {
+  padding-top: 30px;
+}
+.wrapper .title p {
+  font-weight: 600;
+  font-size: 31px;
+  line-height: 37px;
+  color: #ffffff;
+}
+.wrapper .form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 28px 0 48px;
+}
+.wrapper .form input {
+  width: 555px;
+  height: 58px;
+  background: #ffffff;
+  border-radius: 15px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  padding: 18px 0 18px 24px;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.008em;
+}
+.wrapper .form button {
+  background: #000;
+  width: 58px;
+  height: 58px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.wrapper .container {
+  width: 100%;
+  max-width: 1110px;
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 35px 90px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  position: relative;
+  top: 70px;
+  pointer-events: none;
+  z-index: 99999;
+}
+.wrapper .container .suptitle {
+  margin-bottom: 13px;
+}
+.wrapper .container .suptitle p {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  color: #969696;
+}
+.wrapper .container .main__text p {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: -0.008em;
+}
+.wrapper #map {
+  height: 65vh;
+}
