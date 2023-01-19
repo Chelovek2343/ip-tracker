@@ -98,7 +98,6 @@ a {
         margin: 0 auto;
         position: relative;
         top: 70px;
-        pointer-events: none;
         z-index: 99999;
 
         .suptitle {
@@ -125,5 +124,94 @@ a {
 
     #map {
         height: 65vh;
+    }
+}
+
+@media (max-width: 992px) {
+    header,
+    section,
+    footer {
+        width: 100%;
+        overflow: hidden;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .wrapper .form{
+        margin-bottom: 24px;
+    }
+
+    .wrapper .form input{
+        width: 297px;
+    }
+
+    .wrapper .container{
+        max-width: 327px;
+        flex-direction: column;
+        padding: 35px 70px;
+    }
+
+    .wrapper .container .suptitle p{
+        font-size: 13px;
+    }
+
+    .wrapper .container .main__text p{
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 24px;
+    }
+}
+
+@media (min-width: 475px) and (max-width: 767px) {
+
+    .wrapper .form{
+        margin-bottom: 24px;
+    }
+
+    .wrapper .form input{
+        width: 297px;
+    }
+
+    .wrapper .container{
+        max-width: 327px;
+        flex-direction: column;
+        padding: 35px 70px;
+    }
+
+    .wrapper .container .suptitle p{
+        font-size: 13px;
+    }
+
+    .wrapper .container .main__text p{
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 24px;
+    }
+}
+
+@media (max-width: 474px) {
+
+    .wrapper .form{
+        margin-bottom: 24px;
+    }
+
+    .wrapper .form input{
+        width: 297px;
+    }
+
+    .wrapper .container{
+        width: 327px;
+        flex-direction: column;
+        padding: 35px 70px;
+    }
+
+    .wrapper .container .suptitle p{
+        font-size: 13px;
+    }
+
+    .wrapper .container .main__text p{
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 24px;
     }
 }
